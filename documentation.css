@@ -111,5 +111,7 @@ body{
   .side-navbar h4{
       margin-top:12px;
       margin-left:25px;
-      color:var(--primary-text-color);
+      /* color:var(--primary-text-color); */
+      color:#4d4a4a;
+      font-weight: 700;
   }
