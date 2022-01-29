@@ -1,0 +1,33 @@
+.primary-text-color{
+    color: var(--primary-text-color);
+}
+.secondary-text-color{
+    color: var(--secondary-text-color)
+}
+.font-extra-small{
+    font-size: 0.8rem;
+}
+.font-small{
+    font-size: 1rem;
+}
+.font-medium{
+    font-size: 1.1rem;
+}
+.font-medium-large{
+    font-size: 1.3rem;
+}
+.font-large{
+    font-size: 2rem;
+}
+.font-extra-large{
+    font-size: 3rem;
+}
+.weight-normal{
+    font-weight: 400;
+}
+.weight-semi-bold{
+    font-weight: 550;
+}
+.weight-bold{
+    font-weight: 700;
+}

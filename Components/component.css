@@ -1,0 +1,30 @@
+
+@import './Typography/typography.css';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+:root{
+    font-size:62.5%;
+    --primary-color:#ff7043;
+    --primary-light-color:#f5cfc4;
+    --secondary-color:#f7f7f7;
+    --primary-text-color:#0d0901;
+    --secondary-text-color:#ff7403;
+    --tertiary-text-color:#f7f7f7;
+    --background-color: #f2f0f0;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
