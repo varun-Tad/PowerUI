@@ -1,6 +1,8 @@
 
 @import './Typography/typography.css';
 @import './Alerts/alerts.css';
+@import './Avatars/avatars.css';
+
 
 *{
     margin: 0;
