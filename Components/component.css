@@ -1,5 +1,6 @@
 
 @import './Typography/typography.css';
+@import './Alerts/alerts.css';
 
 *{
     margin: 0;
@@ -15,8 +16,16 @@
     --secondary-color:#f7f7f7;
     --primary-text-color:#4d4a4a;
     --secondary-text-color:#ff7403;
-    --tertiary-text-color:#f7f7f7;
+    --tertiary-text-color:#1a1918;
     --background-color: #f2f0f0;
+    --alert-success-text-color:#0f5132;
+    --alert-success-background-color:#d1e7dd;
+    --alert-danger-text-color:#842029;
+    --alert-danger-background-color:#f8d7da;
+    --alert-warning-text-color:#664d03;
+    --alert-warning-background-color:#fff3cd;
+    --alert-info-text-color:#055160;
+    --alert-info-background-color:#cff4fc;
 
 
 }
@@ -27,4 +36,5 @@ html{
 
 body{
     font-family: sans-serif;
+    font-size: 1.6rem;
 }
