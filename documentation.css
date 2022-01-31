@@ -183,3 +183,13 @@ body{
   .component-code-example::-webkit-scrollbar-thumb{
       background:var(--secondary-color);
   }
+
+
+
+  .btn{
+      margin-right:10px;
+  }
+
+  .floating-action-btn{
+      margin-right:20px;
+  }

@@ -2,6 +2,7 @@
 @import './Typography/typography.css';
 @import './Alerts/alerts.css';
 @import './Avatars/avatars.css';
+@import './Buttons/buttons.css';
 
 
 *{
@@ -28,6 +29,21 @@
     --alert-warning-background-color:#fff3cd;
     --alert-info-text-color:#055160;
     --alert-info-background-color:#cff4fc;
+    --solid-btn-text-color:#fff;
+    --primary-btn-background-color:#0d6efd;
+    --secondary-btn-background-color:#6c757d;
+    --success-btn-background-color:#198754;
+    --danger-btn-background-color:#dc3545;
+    --warning-btn-background-color:#ffc107;
+    --info-btn-background-color:#0dcaf0;
+    --outline-btn-background-color:#fff;
+    --outline-primary-btn-text-color:#0d6efd;
+    --outline-secondary-btn-text-color:#6c757d;
+    --outline-success-btn-text-color:#198754;
+    --outline-danger-btn-text-color:#dc3545;
+    --outline-warning-btn-text-color:#ffc107;
+    --outline-info-btn-text-color:#0dcaf0;
+
 
 
 }
