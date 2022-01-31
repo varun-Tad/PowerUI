@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerUI |Documentation</title>
+    <title>PowerUI|Documentation</title>
    <link rel="stylesheet" href="./Components/component.css">
    <link rel="stylesheet" href="documentation.css">
 </head>
@@ -25,17 +25,6 @@
 <!-- navbar ends -->
 
 
-<main> 
-     sidebar
-     /sidebar
-
-     main-cont
-     /main-cont
-</main>
-
-
-
-main tag will have display flex with flex direction column
 
 
 
@@ -47,9 +36,9 @@ main tag will have display flex with flex direction column
     <!-- side navbar starts -->
     <aside class="side-navbar">
 
-        <h4 class="usage-heading">Getting Started</h4>
+        <h4 class="usage-head">Getting Started</h4>
         <p class=side-navbar-item><a href="#">Usage</a></p>
-        <h4 class="component-heading">Components</h4>
+        <h4 class="component-head">Components</h4>
         <p class="side-navbar-item"><a href="#alert-container">Alerts</a></p>
         <p class="side-navbar-item"><a href="#avatar-container">Avatars</a></p>
         <p class="side-navbar-item"><a href="#badge-container">Badges</a></p>
@@ -62,12 +51,122 @@ main tag will have display flex with flex direction column
     <!-- side navbar ends -->
 
     <!-- document-container starts -->
-    <section class="document-container">
+<section class="document-container">
+
+
+     <!-- Alert Component      -->
+     <div class="component-section" id="alert-container" >
+
+        <h1 class="component-heading">Alerts</h1>
+        <p class="component-para">Alerts provide feedbeack to the user depending on the situation that arises.</p>
+        <p class="component-para">The alert components namely have four variants.They are  <span class="component-text-highlighted">success alert</span>,<span>danger alert</span>,<span class="component-text-highlighted">warning-alert</span>,<span>info alert</span>.</p>
+        <h2 class="component-sub-heading">Examples of alerts</h2>
+        <div class="comp-example">
+         
+           <div class="alert alert-success">
+             A simple success alert-check it out!
+           </div>
+
+           <div class="alert alert-danger">
+             A simple danger alert-check it out!
+            </div>
+
+            <div class="alert alert-warning">
+              A simple warning alert-check it out!
+            </div>
+
+            <div class="alert alert-info">
+              A simple info alert-check it out!
+            </div>
+        </div>
+        
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EA%2520simple%2520success%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520simple%2520danger%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520warning%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EA%2520simple%2520info%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%2520%250A"
+        style="width: 790px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+   
+    </div>
+
+    <!-- Avatar section -->
+    <div class="component-section" id="avatar-container">
+
+       <h1 class="component-heading">Avatars</h1>
+       <p class="component-para">Avatars are images that users can set as their profile picture.</p>
+       <p class="component-para">Some variants of avatars are <span class="component-text-highlighted">rounded avatars</span>,squared avatars and also <span class="component-text-highlighted">avatars with text</span>.<p>  
+       <h2 class="component-sub-heading">Examples of avatars</h2>  
+       
+     
+       
+       <div>
+
+         <p class="component-para">Rounded avatars</p>
+         <div class="avatar-example-sub-container">
+            <img class="avatar-round avatar-xl" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="man">
+            <img class="avatar-round avatar-lg" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="man">
+            <img class="avatar-round avatar-md" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="man">
+            <img class="avatar-round avatar-sm" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="man">
+            <img class="avatar-round avatar-xs" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="man">
+         </div>
+        
+         <iframe
+           src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A"
+           style="width: 770px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
+       </iframe>
+
+
+
+           
+        <p class="component-para">Squared avatars</p>    
+       <div class="avatar-example-sub-container">
+         
+          <img class ="avatar-square avatar-xl"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
+          <img class ="avatar-square avatar-lg"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
+          <img class ="avatar-square avatar-md"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
+          <img class ="avatar-square avatar-sm"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
+          <img class ="avatar-square avatar-xs"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
+
+        </div>
+
+        <iframe
+           src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A"
+           style="width: 766px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <p class="component-para">Text avatars</p> 
+        <div class="avatar-example-sub-container">
+
+            <div class="avatar-text avatar-xl font-extra-large">TV</div>
+            <div class="avatar-text avatar-lg font-large">TV</div>
+            <div class="avatar-text avatar-md font-mid">TV</div>
+            <div class="avatar-text avatar-sm font-small">TV</div>
+            <div class="avatar-text avatar-xs font-extra-small">TV</div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xl%2520font-extra-large%2522%253ETV%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-lg%2520font-large%2522%253ETV%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-md%2520font-mid%2522%253ETV%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-sm%2520font-small%2522%253ETV%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522avatar-text%2520avatar-xs%2520font-extra-small%2522%253ETV%253C%252Fdiv%253E%250A"
+          style="width: 664px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    
+    
+    
+    
+       </div>
 
 
 
 
-    </section>
+
+    </div>
+  
+
+
+
+
+</section>
     <!-- document-container ends -->
 </main>
 
