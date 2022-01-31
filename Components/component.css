@@ -3,6 +3,7 @@
 @import './Alerts/alerts.css';
 @import './Avatars/avatars.css';
 @import './Buttons/buttons.css';
+@import './Badges/badge.css';
 
 
 *{
@@ -43,6 +44,9 @@
     --outline-danger-btn-text-color:#dc3545;
     --outline-warning-btn-text-color:#ffc107;
     --outline-info-btn-text-color:#0dcaf0;
+    --badge-active-color:#2a8b2a ;
+    --badge-busy-color:#f51111;
+    --badge-away-color:#f2c200;
 
 
 

@@ -1,0 +1,98 @@
+
+.badge-portion{
+    position: relative;
+}
+
+
+.badge-top{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position: relative;
+    bottom:50px;
+    left:30px;
+    
+}
+
+
+.badge-bottom-sm{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position:relative;
+    bottom:20px;
+    left:40px;
+    
+}
+
+
+.badge-bottom-md{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position:relative;
+    bottom:25px;
+    left:60px;
+    
+}
+
+
+.badge-bottom-lg{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position:relative;
+    bottom:25px;
+    left:70px;
+    
+}
+
+/* .badge-active-circular{
+    background-color: #2a8b2a;
+
+}
+
+
+.badge-messages{
+    background-color:var(--secondary-text-color);
+    color:var(--secondary-color);
+    padding-left:5px;
+    padding-top:2px;
+    font-size:12px;
+
+    
+} */
+
+
+.number-badge{
+    font-size: 12px;
+    padding-left:5px;
+    padding-top:3px;
+    padding-right:5px;
+    color:var(--secondary-color);
+
+}
+
+
+.badge-active{
+    background-color:var(--badge-active-color);
+}
+
+.badge-busy{
+    background-color:var(--badge-busy-color);
+}
+
+.badge-away{
+    background-color: var(--badge-away-color);
+}
+
+.badge-no-of-message{
+    background-color: var(--secondary-text-color);
+}
+
+
+
