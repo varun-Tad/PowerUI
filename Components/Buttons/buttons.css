@@ -13,12 +13,17 @@
 .btn-primary{
     color:var(--solid-btn-text-color);
     background-color: var(--primary-btn-background-color);
-    border:var(--primary-btn-background-color)
+    border:var(--primary-btn-background-color);
+    box-shadow: 0 9px #999;
 }
 
-.btn-primary:hover{
-     opacity:0.7;
-}
+
+
+.btn-primary:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 
 .btn-secondary{
     color:var(--solid-btn-text-color);
@@ -69,11 +74,13 @@
     color:var(--solid-btn-text-color);
     background-color: var(--info-btn-background-color);
     border: var(--info-btn-background-color);
+    box-shadow: 0 9px #999;
 }
 
-.btn-info:hover{
-    opacity:0.7;
-}
+.btn-info:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 
 
