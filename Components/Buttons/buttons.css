@@ -16,11 +16,21 @@
     border:var(--primary-btn-background-color)
 }
 
+.btn-primary:hover{
+     opacity:0.7;
+}
+
 .btn-secondary{
     color:var(--solid-btn-text-color);
     background-color: var(--secondary-btn-background-color);
     border:var(--secondary-btn-background-color);
 }
+
+
+.btn-secondary:hover{
+    opacity:0.7;
+}
+
 
 .btn-success{
     color:var(--solid-btn-text-color);
@@ -28,10 +38,20 @@
     border:var(--success-btn-background-color) ;
 }
 
+.btn-success:hover{
+    opacity:0.7;
+}
+
+
 .btn-danger{
     color:var(--solid-btn-text-color);
     background-color: var(--danger-btn-background-color);
     border:var(--danger-btn-background-color);
+}
+
+
+.btn-danger:hover{
+    opacity:0.7;
 }
 
 .btn-warning{
@@ -40,11 +60,21 @@
     border: var(--warning-btn-background-color);
 }
 
+.btn-warning:hover{
+    opacity:0.7;
+}
+
+
 .btn-info{
     color:var(--solid-btn-text-color);
     background-color: var(--info-btn-background-color);
     border: var(--info-btn-background-color);
 }
+
+.btn-info:hover{
+    opacity:0.7;
+}
+
 
 
 .btn-outline-primary{
