@@ -1,0 +1,86 @@
+
+.badge-portion{
+    position: relative;
+}
+
+
+.badge-top{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position: relative;
+    bottom:50px;
+    left:30px;
+    
+}
+
+
+.badge-bottom-sm{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position:relative;
+    bottom:20px;
+    left:40px;
+    
+}
+
+
+.badge-bottom-md{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position:relative;
+    bottom:25px;
+    left:60px;
+    
+}
+
+
+.badge-bottom-lg{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    font-weight:700;
+    position:relative;
+    bottom:25px;
+    left:70px;
+    
+}
+
+
+.number-badge{
+    font-size: 12px;
+    padding-left:5px;
+    padding-top:3px;
+    padding-right:5px;
+    color:var(--secondary-color);
+
+}
+
+
+.badge-active{
+    background-color:var(--badge-active-color);
+    box-shadow: var(--background-color) 0px 0px 0px 3px;
+}
+
+.badge-busy{
+    background-color:var(--badge-busy-color);
+    box-shadow: var(--background-color) 0px 0px 0px 3px;
+}
+
+.badge-away{
+    background-color: var(--badge-away-color);
+    box-shadow: var(--background-color) 0px 0px 0px 3px;
+}
+
+.badge-no-of-message{
+    background-color: var(--secondary-text-color);
+
+}
+
+
+

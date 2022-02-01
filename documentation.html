@@ -7,6 +7,10 @@
     <title>PowerUI|Documentation</title>
    <link rel="stylesheet" href="./Components/component.css">
    <link rel="stylesheet" href="documentation.css">
+   <link
+   rel="stylesheet"
+   href="path/to/font-awesome/css/font-awesome.min.css"
+ />
 </head>
 <body>
     
@@ -41,8 +45,8 @@
         <h4 class="component-head">Components</h4>
         <p class="side-navbar-item"><a href="#alert-container">Alerts</a></p>
         <p class="side-navbar-item"><a href="#avatar-container">Avatars</a></p>
-        <p class="side-navbar-item"><a href="#badge-container">Badges</a></p>
         <p class="side-navbar-item"><a href="#button-container">Buttons</a></p>
+        <p class="side-navbar-item"><a href="#badge-container">Badges</a></p>
         <p class="side-navbar-item"><a href="#card-container">Cards</a></p>
         <p class="side-navbar-item"><a href="#image-container">Images</a></p>
         <p class="side-navbar-item"><a href="#input-container">Input</a></p>
@@ -54,7 +58,7 @@
 <section class="document-container">
 
 
-     <!-- Alert Component      -->
+     <!-- Alert Component-->
      <div class="component-section" id="alert-container" >
 
         <h1 class="component-heading">Alerts</h1>
@@ -81,6 +85,7 @@
         </div>
         
         <iframe
+        loading="lazy"
         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EA%2520simple%2520success%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520simple%2520danger%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520warning%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EA%2520simple%2520info%2520alert-check%2520it%2520out%21%253C%252Fdiv%253E%250A%2520%250A"
         style="width: 790px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
         sandbox="allow-scripts allow-same-origin">
@@ -96,10 +101,7 @@
        <p class="component-para">Some variants of avatars are <span class="component-text-highlighted">rounded avatars</span>,squared avatars and also <span class="component-text-highlighted">avatars with text</span>.<p>  
        <h2 class="component-sub-heading">Examples of avatars</h2>  
        
-     
-       
-       <div>
-
+      <div>
          <p class="component-para">Rounded avatars</p>
          <div class="avatar-example-sub-container">
             <img class="avatar-round avatar-xl" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" alt="man">
@@ -110,16 +112,17 @@
          </div>
         
          <iframe
+           loading="lazy"
            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-round%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A"
            style="width: 770px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
            sandbox="allow-scripts allow-same-origin">
-       </iframe>
+        </iframe>
 
 
 
            
         <p class="component-para">Squared avatars</p>    
-       <div class="avatar-example-sub-container">
+        <div class="avatar-example-sub-container">
          
           <img class ="avatar-square avatar-xl"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
           <img class ="avatar-square avatar-lg"src="https://images.unsplash.com/photo-1583698896760-7355120cede6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" alt="car">
@@ -130,6 +133,7 @@
         </div>
 
         <iframe
+          loading="lazy"
            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-md%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar-square%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Furl-of-image%2522%2520alt%253D%2522%2520%2522%253E%250A"
            style="width: 766px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
            sandbox="allow-scripts allow-same-origin">
@@ -150,23 +154,169 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
 
-    
-    
-    
-    
+      </div>
+    </div>
+
+    <!-- Button section -->
+
+   <div class="component-section" id="button-container" >
+
+   
+       <h1 class="component-heading">Buttons</h1>
+       <p class="component-para">Clickable buttons can be used to submit forms or any other kind of documents. </p>
+       <h2 class="component-sub-heading">Examples of Buttons</h2> 
+       <p class="component-para">Solid buttons</p>
+      
+       <div class="comp-example">
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-info">Info</button>
+      </div>
+
+      <iframe
+       loading="lazy"
+       src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A"
+       style="width: 720px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+       sandbox="allow-scripts allow-same-origin">
+       </iframe>
+
+
+       <p class="component-para">Outline buttons</p>
+      
+       <div class="comp-example">
+          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+          <button type="button" class="btn btn-outline-success">Success</button>
+          <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-warning">Warning</button>
+          <button type="button" class="btn btn-outline-info">Info</button>
+       </div>
+
+       <iframe
+        loading="lazy"
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline-info%2522%253EInfo%253C%252Fbutton%253E%250A"
+        style="width: 790px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+       </iframe>
+       
+
+       <p class="component-para">Buttons with icons</p>
+       <p class="component-text-highlighted">Here I have used the icons from font awesome.So make sure you include the font awesome cdn to use these icons</p>
+
+       <div class="comp-example">
+        <button type="button" class="btn btn-primary"><i class="far fa-thumbs-up"></i> Primary</button>
+        <button type="button" class="btn btn-success"><i class="far fa-check-circle"></i> Success</button>
+        <button type="button" class="btn btn-danger"><i class="far fa-times-circle"></i> Danger</button>
+        <button type="button" class="btn btn-info"><i class="far fa-question-circle"></i>  info</button>
        </div>
 
 
+       <iframe
+         loading="lazy"
+         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ci%2520class%253D%2522far%2520fa-thumbs-up%2522%253E%253C%252Fi%253E%2520Primary%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2522%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%2520Success%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2522%253E%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%2520Danger%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-info%2522%253E%253Ci%2520class%253D%2522far%2520fa-question-circle%2522%253E%253C%252Fi%253E%2520info%253C%252Fbutton%253E%250A%250A%250A"
+         style="width: 980px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+         sandbox="allow-scripts allow-same-origin">
+       </iframe>
+
+
+
+       <p class="component-para">Buttons with link</p>
+       <div class="comp-example">
+          <button type="button" class="btn btn-primary"><a class ="link-button-text" href="https://www.google.com/">Primary</a></button>
+          <button type="button" class="btn btn-warning"><a class="link-button-text" href="https://www.google.com/">Warning</a></button>
+       </div>
+
+       <iframe
+        loading="lazy"
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253E%253Ca%2520class%2520%253D%2522link-button-text%2522%2520href%253D%2522%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2522%253E%253Ca%2520class%253D%2522link-button-text%2522%2520href%253D%2522%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%250A%250A"
+        style="width: 997px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+       sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+      <p class="component-para">Floating Action Buttons</p>
+      <p class="component-text-highlighted">Here I have used the icons from font awesome.So make sure you include the font awesome cdn to use these icons</p>
+      <div class="comp-example">
+          <button class="floating-action-btn"><i class="fas fa-camera fa-2x"></i></button>
+          <button class="floating-action-btn"><i class="fas fa-star fa-lg"></i></button>
+          <button class="floating-action-btn"><i class="far fa-envelope fa-lg"></i></button>
+      </div>
+
+      <iframe
+        loading="lazy"
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-action-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-camera%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522floating-action-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-lg%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522floating-action-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-envelope%2520fa-lg%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%250A%250A"
+        style="width: 850px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+    </div>   
+
+    <!-- Badges section -->
+    <div class="component-section" id="badge-container" >
+
+        <h1 class="component-heading">Badges</h1>
+        <p class="component-para">Badges can be used set status or also get the count of number of messages or notifications you have received.</p>
+        <h2 class="component-sub-heading">Examples of Badges</h2> 
+ 
+        <p class="component-para">Badge on icons</p>
+        <div class="badge-comp-example">
+        
+            <div class="badge-portion">
+                 <i class="fab fa-facebook-square fa-3x"></i>
+                 <p class=" badge-top badge-active"></p>
+            </div>
+            <div class="badge-portion">
+                <i class="fab fa-whatsapp fa-3x"></i>
+                <p class=" badge-top number-badge badge-no-of-message">3</p>
+            </div>
+            <div class="badge-portion">
+                <i class="fas fa-envelope fa-3x"></i>
+                <p class="badge-top number-badge badge-active">9+</p>
+            </div>
+        </div>
+
+        <iframe
+           src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-facebook-square%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520badge-top%2520badge-active%2522%253E%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520badge-top%2520number-badge%2520badge-no-of-message%2522%253E3%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522badge-top%2520number-badge%2520badge-active%2522%253E9%252B%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A"
+           style="width: 724px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <p class="component-para">Badge on avatars</p>
+        <div class="badge-comp-example">
+
+            <div class="badge-portion">
+                <img class ="avatar-round avatar-lg"src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960&q=80" alt="face">
+                <p class=" badge-bottom-lg badge-active"></p>
+            </div>
+            <div class="badge-portion">
+                <img class ="avatar-round avatar-md"src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960&q=80" alt="face">
+                <p class=" badge-bottom-md badge-busy"></p>
+           </div>
+           <div class="badge-portion">
+               <img class ="avatar-round avatar-sm"src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960&q=80" alt="face">
+               <p class=" badge-bottom-sm badge-away"></p>
+            </div>
+         </div>
+
+         <iframe
+           src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2522avatar-round%2520avatar-lg%2522src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520badge-bottom-lg%2520badge-active%2522%253E%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2522avatar-round%2520avatar-md%2522src%253D%2522...%2522%2520alt%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520badge-bottom-md%2520badge-busy%2522%253E%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2522avatar-round%2520avatar-sm%2522src%253D%2522...%2522%2520alt%253D%2522face%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522%2520badge-bottom-sm%2520badge-away%2522%253E%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%250A"
+           style="width: 673px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
+           sandbox="allow-scripts allow-same-origin">
+       </iframe>
 
 
 
     </div>
-  
 
 
 
 
-</section>
+
+
+
+  </section>
     <!-- document-container ends -->
 </main>
 
@@ -183,5 +333,8 @@
 
 
 <!-- side navbar ends -->
+
+
+<script src="https://kit.fontawesome.com/a14e74739b.js" crossorigin="anonymous"></script>
 </body>
 </html>

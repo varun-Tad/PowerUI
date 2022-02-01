@@ -1,0 +1,188 @@
+.btn{
+    cursor: pointer;
+    padding:1rem 1rem;
+    width:fit-content;
+    font-size: 1.5rem;
+    height: fit-content;
+    border-radius: 0.5rem;
+    border:1px solid;
+   
+}
+
+
+.btn-primary{
+    color:var(--solid-btn-text-color);
+    background-color: var(--primary-btn-background-color);
+    border:var(--primary-btn-background-color);
+    box-shadow: 0 9px #999;
+}
+
+
+
+.btn-primary:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+.btn-secondary{
+    color:var(--solid-btn-text-color);
+    background-color: var(--secondary-btn-background-color);
+    border:var(--secondary-btn-background-color);
+}
+
+
+.btn-secondary:hover{
+    opacity:0.7;
+}
+
+
+.btn-success{
+    color:var(--solid-btn-text-color);
+    background-color: var(--success-btn-background-color);
+    border:var(--success-btn-background-color) ;
+}
+
+.btn-success:hover{
+    opacity:0.7;
+}
+
+
+.btn-danger{
+    color:var(--solid-btn-text-color);
+    background-color: var(--danger-btn-background-color);
+    border:var(--danger-btn-background-color);
+}
+
+
+.btn-danger:hover{
+    opacity:0.7;
+}
+
+.btn-warning{
+    color:var(--solid-btn-text-color);
+    background-color: var(--warning-btn-background-color);
+    border: var(--warning-btn-background-color);
+}
+
+.btn-warning:hover{
+    opacity:0.7;
+}
+
+
+.btn-info{
+    color:var(--solid-btn-text-color);
+    background-color: var(--info-btn-background-color);
+    border: var(--info-btn-background-color);
+    box-shadow: 0 9px #999;
+}
+
+.btn-info:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.btn-outline-primary{
+    color:var( --outline-primary-btn-text-color);
+    background-color:var(--outline-btn-background-color);
+    border:1px solid var(--outline-primary-btn-text-color);
+}
+
+
+.btn-outline-primary:hover{
+    color:var(--solid-btn-text-color);
+    background-color:var(--primary-btn-background-color);
+    border:1px solid var(--outline-primary-btn-text-color);
+}
+
+
+.btn-outline-secondary{
+    color:var( --outline-secondary-btn-text-color);
+    background-color:var(--outline-btn-background-color);
+    border:1px solid var(--outline-secondary-btn-text-color);
+}
+
+.btn-outline-secondary:hover{
+    color:var(--solid-btn-text-color);
+    background-color:var(--secondary-btn-background-color);
+    border:1px solid var(--outline-secondary-btn-text-color);
+}
+
+
+.btn-outline-success{
+    color:var( --outline-success-btn-text-color);
+    background-color:var(--outline-btn-background-color);
+    border:1px solid var(--outline-success-btn-text-color);
+}
+
+
+.btn-outline-success:hover{
+    color:var(--solid-btn-text-color);
+    background-color:var(--success-btn-background-color);
+    border:1px solid var(--outline-success-btn-text-color);
+}
+
+.btn-outline-danger{
+    color:var( --outline-danger-btn-text-color);
+    background-color:var(--outline-btn-background-color);
+    border:1px solid var(--outline-danger-btn-text-color);
+}
+
+
+.btn-outline-danger:hover{
+    color:var(--solid-btn-text-color);
+    background-color:var(--danger-btn-background-color);
+    border:1px solid var(--outline-danger-btn-text-color);
+}
+
+.btn-outline-warning{
+    color:var( --outline-warning-btn-text-color);
+    background-color:var(--outline-btn-background-color);
+    border:1px solid var(--outline-warning-btn-text-color);
+}
+
+
+.btn-outline-warning:hover{
+    color:var(--solid-btn-text-color);
+    background-color:var(--warning-btn-background-color);
+    border:1px solid var(--outline-warning-btn-text-color);
+}
+
+
+.btn-outline-info{
+    color:var( --outline-info-btn-text-color);
+    background-color:var(--outline-btn-background-color);
+    border:1px solid var(--outline-info-btn-text-color);
+}
+
+
+.btn-outline-info:hover{
+    color:var(--solid-btn-text-color);
+    background-color:var(--info-btn-background-color);
+    border:1px solid var(--outline-info-btn-text-color);
+}
+
+
+.link-button-text{
+    color:var(--solid-btn-text-color);
+    text-decoration: none;
+ 
+}
+
+
+.floating-action-btn{
+    border-radius: 50%;
+    color:var(--solid-btn-text-color);
+    color:var(--secondary-color);
+    background-color: black;
+    padding:15px;
+    cursor: pointer;
+    border:none;
+}
+
+
+.floating-action-btn:hover{
+    opacity:0.7;
+}
