@@ -4,6 +4,7 @@
 @import './Avatars/avatars.css';
 @import './Buttons/buttons.css';
 @import './Badges/badge.css';
+@import './Cards/cards.css';
 
 
 *{
@@ -22,6 +23,7 @@
     --secondary-text-color:#ff7403;
     --tertiary-text-color:#1a1918;
     --background-color: #f2f0f0;
+    --background-white-color:#fff;
     --alert-success-text-color:#0f5132;
     --alert-success-background-color:#d1e7dd;
     --alert-danger-text-color:#842029;

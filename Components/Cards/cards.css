@@ -1,0 +1,125 @@
+.card{
+    width:370px;
+    height: min-content;
+    border-radius: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background-color:var(--primary-light-color);
+    position: relative;
+    row-gap:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+
+.card-badge::before{
+    position: absolute;
+    content: '';
+    height: 28px;
+    width: 28px;
+    background: var(--primary-color);
+    top:2rem;
+    right:-2.2rem;
+    transform : rotateY(-100deg);
+}
+
+
+
+ .card-badge::after{
+    position: absolute;
+    content: '#1 Best Seller';
+    top: 15px;
+    right: -10px;
+    padding: 0.5rem;
+    width: 10rem;
+    background: var(--primary-color);
+    color: var(--solid-btn-text-color);
+    text-align: center;
+    /* font-family: 'Roboto', sans-serif; */
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+  } 
+
+  .horizontal-card{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: min-content;
+    border-radius: 1.5rem;
+    background-color:var(--primary-light-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    row-gap:10px;
+}
+
+.horizontal-card-image{
+    width:140px;
+    height:150px;
+
+}
+
+.horizontal-card-titles{
+    margin-top:20px;
+}
+
+
+.image-header-container{
+    display: flex;
+    column-gap: 30px;
+}
+
+.overlay{
+      position:absolute;
+      width:100%;
+      height:100%;
+      z-index:5;
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(0.5px);
+      border-radius: 1.5rem;
+    
+  }
+
+.overlay-text{
+      position:relative;
+      top:250px;
+      text-align:center;
+      color:var(--primary-color);
+      font-size: 4rem;
+}
+
+.image-container{
+    width:370px;
+}
+
+.image{
+    width:100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+
+.text-container{
+    margin-left:20px;
+    margin-top:10px;
+    
+}
+
+.card-subtitle{
+    margin-left:25px;
+    margin-top:5px;
+    color:var(--primary-text-color);
+}
+
+.description-container{
+    margin: 5px 10px 0 8px;
+    line-height: 2rem;
+    color:var(--primary-text-color);
+    font-weight: 600;
+}
+
+.link-container{
+    margin:0 0 10px 10px;
+    font-weight: 800;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
