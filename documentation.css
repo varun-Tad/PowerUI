@@ -218,3 +218,116 @@ body{
   }
 
   
+  /* iframe classess */
+
+ .code-block{
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+ }
+
+
+  .alert-code{
+    width: 790px; 
+    height: 298px; 
+
+  }
+
+
+  .rounded-avatar-code{
+    width: 770px; 
+    height: 298px; 
+
+  }
+
+  .squared-avatar-code{
+    width: 766px;
+     height: 298px; 
+
+  }
+
+  .text-avatar-code
+  {
+    width: 670px;
+     height: 298px; 
+
+  }
+
+  .solid-btn-code
+  {
+    width: 720px; 
+    height: 316px; 
+
+  }
+
+  .outline-btn-code
+  {
+    width: 790px; 
+    height: 316px;
+  }
+
+
+  .icon-btn-code
+  {
+    width: 980px; 
+    height: 316px; 
+  }
+
+
+  .link-btn-code {
+    width: 997px; 
+    height: 279px;
+  }
+
+
+  .floating-btn-code{
+    width:850px; 
+    height: 298px;
+  }
+
+
+  .icon-badge-code{
+    width: 724px; 
+    height: 465px;
+  }
+
+
+  .avatar-badge-code{
+    width: 673px; 
+    height: 465px; 
+  }
+
+
+  .hr-code{
+    width: 1010px; 
+    height: 540px;
+  }
+
+
+  .text-overlay-code{
+    width: 1024px;
+    height: 558px;
+  }
+
+  .badge-card-code{
+    width: 1024px;
+    height: 558px;
+  }
+
+  .vr-code{
+    width: 1024px;
+     height: 614px;
+  }
+
+
+  .text-card-code
+  {
+    width: 1024px;
+    height: 502px;
+  }
+
+
+  .dismiss-card-code{
+    width: 1024px; 
+    height: 577px;
+  }
