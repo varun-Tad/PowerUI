@@ -6,11 +6,17 @@ body{
 
 
 .container{
+    min-height:100vh;
+    max-width:100%;
+
     padding-right: 5rem;
     display:grid;
-    gap:25rem;
+    grid-template-columns: 28rem 1fr;
+    grid-template-rows: 8rem 1fr;
+    gap:2rem;
     grid-template-areas: "header header"
                           "aside  main";
+
 
 }
 
