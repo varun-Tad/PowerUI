@@ -5,55 +5,55 @@
 
 
 .badge-top{
-    width:20px;
-    height:20px;
+    width:2rem;
+    height:2rem;
     border-radius: 50%;
     font-weight:700;
     position: relative;
-    bottom:50px;
-    left:30px;
+    bottom:5rem;
+    left:3rem;
     
 }
 
 
 .badge-bottom-sm{
-    width:20px;
-    height:20px;
+    width:2rem;
+    height:2rem;
     border-radius: 50%;
     font-weight:700;
     position:relative;
-    bottom:20px;
-    left:40px;
+    bottom:2rem;
+    left:4rem;
     
 }
 
 
 .badge-bottom-md{
-    width:20px;
-    height:20px;
+    width:2rem;
+    height:2rem;
     border-radius: 50%;
     font-weight:700;
     position:relative;
-    bottom:25px;
-    left:60px;
+    bottom:2.5rem;
+    left:6rem;
     
 }
 
 
 .badge-bottom-lg{
-    width:20px;
-    height:20px;
+    width:2rem;
+    height:2rem;
     border-radius: 50%;
     font-weight:700;
     position:relative;
-    bottom:25px;
-    left:70px;
+    bottom:2.5rem;
+    left:7rem;
     
 }
 
 
 .number-badge{
-    font-size: 12px;
+    font-size: 1.2rem;
     padding-left:5px;
     padding-top:3px;
     padding-right:5px;
