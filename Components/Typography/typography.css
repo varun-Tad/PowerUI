@@ -17,7 +17,8 @@
 .component-sub-heading{
    color:var(--secondary-text-color);
    font-size:2.5rem;
-   margin-top:20px;
+   margin-top:2rem;
+   margin-bottom:2rem;
 }
 
 
@@ -34,24 +35,67 @@
   
 }
 
-.font-extra-large{
-    font-size: 5rem;
+
+
+.h1{
+    color: var(--floating-btn-background);
+    font-size: 4rem;
+    font-weight: 700;
 }
-
-
-.font-large{
-    font-size:4rem;
+.h2{
+    color: var(--floating-btn-background);
+    font-size: 3.5rem;
+    font-weight: 700;
 }
-
-
-.font-mid{
+.h3{
+    color: var(--floating-btn-background);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.h4{
+    color: var(--floating-btn-background);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.h5{
+    color: var(--floating-btn-background);
     font-size: 2rem;
+    font-weight: 700;
 }
-
-.font-small{
+.h6{
+    color: var(--floating-btn-background);
     font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.font-extra-small{
-    font-size: 1rem;
+.line-through{
+    text-decoration:line-through;
 }
+
+.text-underline{
+    text-decoration: underline;
+}
+
+
+.bold-text{
+    font-weight: 900;
+}
+
+.normal-text{
+    font-weight: 400;
+}
+
+.light-text{
+    font-weight: 100;
+}
+
+
+.italic-text{
+    font-style: italic;
+}
+
+
+.centered-text{
+    text-align: center;
+}
+
