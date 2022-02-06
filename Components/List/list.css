@@ -30,3 +30,9 @@
 .default-style{
     list-style-type:none;
 }
+
+
+.inline-style{
+    display: flex;
+    gap: 3rem;
+}
