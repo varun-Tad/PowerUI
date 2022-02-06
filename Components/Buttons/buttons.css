@@ -9,6 +9,11 @@
    
 }
 
+.btns:hover{
+    opacity: 0.7;
+
+}
+
 
 .btn-primary{
     color:var(--solid-btn-text-color);
@@ -32,9 +37,9 @@
 }
 
 
-.btn-secondary:hover{
+/* .btn-secondary:hover{
     opacity:0.7;
-}
+} */
 
 
 .btn-success{
@@ -43,9 +48,9 @@
     border:var(--success-btn-background-color) ;
 }
 
-.btn-success:hover{
+/* .btn-success:hover{
     opacity:0.7;
-}
+} */
 
 
 .btn-danger{
@@ -55,9 +60,9 @@
 }
 
 
-.btn-danger:hover{
+/* .btn-danger:hover{
     opacity:0.7;
-}
+} */
 
 .btn-warning{
     color:var(--solid-btn-text-color);
@@ -65,9 +70,9 @@
     border: var(--warning-btn-background-color);
 }
 
-.btn-warning:hover{
+/* .btn-warning:hover{
     opacity:0.7;
-}
+} */
 
 
 .btn-info{
@@ -176,7 +181,7 @@
     border-radius: 50%;
     color:var(--solid-btn-text-color);
     color:var(--secondary-color);
-    background-color: black;
+    background-color: var(--floating-btn-background);
     padding:1.5rem;
     cursor: pointer;
     border:none;

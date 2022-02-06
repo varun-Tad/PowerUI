@@ -18,7 +18,7 @@
     position: absolute;
     content: '';
     height: 2.8rem;
-    width: 2.8rem;
+    max-width: 2.8rem;
     background: var(--primary-color);
     top:2rem;
     right:-2.2rem;
@@ -33,7 +33,7 @@
     top: 1.5rem;
     right: -10px;
     padding: 0.5rem;
-    width: 10rem;
+    max-width: 10rem;
     background: var(--primary-color);
     color: var(--solid-btn-text-color);
     text-align: center;
@@ -52,7 +52,7 @@
 }
 
 .horizontal-card-image{
-    width:14rem;
+    max-width:14rem;
     height:15rem;
     border-radius: 1.5rem 0 1.5rem 0;
 
@@ -94,7 +94,7 @@
 } */
 
 .image{
-    width:100%;
+    max-width:100%;
     border-radius: 1.5rem 1.5rem 0 0;
     max-width: 37rem;
 

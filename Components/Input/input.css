@@ -2,10 +2,15 @@
     background-color: var(--primary-light-color);
     font-weight: 400;
     outline: none;
+    border:2px solid var(--primary-text-color);
+ 
+}
+
+
+.inp-btn{
+    width:20rem;
     padding:0.8rem;
     border-radius: 0.5rem;
-    border:2px solid var(--primary-text-color);
-    width:20rem;
 }
 
 
@@ -13,10 +18,8 @@
     background-color: var(--primary-light-color);
     font-weight: 400;
     outline: none;
-    padding:0.8rem;
-    border-radius: 0.5rem;
     border:3px solid var(--outline-danger-btn-text-color);
-    width:20rem;
+  
 
 }
 
@@ -29,10 +32,8 @@
     background-color: var(--primary-light-color);
     font-weight: 400;
     outline: none;
-    padding:0.8rem;
-    border-radius: 0.5rem;
     border:3px solid var(--outline-warning-btn-text-color);
-    width:20rem;
+  
 
 }
 
@@ -45,10 +46,8 @@
     background-color: var(--primary-light-color);
     font-weight: 400;
     outline: none;
-    padding:0.8rem;
-    border-radius: 0.5rem;
     border:3px solid var( --badge-active-color);
-    width:20rem;
+  
 
 }
 

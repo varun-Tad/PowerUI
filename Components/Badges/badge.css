@@ -3,12 +3,14 @@
     position: relative;
 }
 
+.badge{
+    border-radius: 50%;
+    font-weight:700;
+}
 
 .badge-top{
     width:2rem;
     height:2rem;
-    border-radius: 50%;
-    font-weight:700;
     position: relative;
     bottom:5rem;
     left:3rem;
@@ -19,8 +21,6 @@
 .badge-bottom-sm{
     width:2rem;
     height:2rem;
-    border-radius: 50%;
-    font-weight:700;
     position:relative;
     bottom:2rem;
     left:4rem;
@@ -31,8 +31,6 @@
 .badge-bottom-md{
     width:2rem;
     height:2rem;
-    border-radius: 50%;
-    font-weight:700;
     position:relative;
     bottom:2.5rem;
     left:6rem;
@@ -43,8 +41,6 @@
 .badge-bottom-lg{
     width:2rem;
     height:2rem;
-    border-radius: 50%;
-    font-weight:700;
     position:relative;
     bottom:2.5rem;
     left:7rem;
