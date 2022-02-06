@@ -5,6 +5,8 @@
 @import './Buttons/buttons.css';
 @import './Badges/badge.css';
 @import './Cards/cards.css';
+@import './Image/image.css';
+@import './Input/input.css';
 
 
 *{

@@ -1,0 +1,57 @@
+.basic-input-box{
+    background-color: var(--primary-light-color);
+    font-weight: 400;
+    outline: none;
+    padding:0.8rem;
+    border-radius: 0.5rem;
+    border:2px solid var(--primary-text-color);
+    width:20rem;
+}
+
+
+.error{
+    background-color: var(--primary-light-color);
+    font-weight: 400;
+    outline: none;
+    padding:0.8rem;
+    border-radius: 0.5rem;
+    border:3px solid var(--outline-danger-btn-text-color);
+    width:20rem;
+
+}
+
+.error:focus{
+    border: 2px solid var(--primary-text-color);
+}
+
+
+.warn{
+    background-color: var(--primary-light-color);
+    font-weight: 400;
+    outline: none;
+    padding:0.8rem;
+    border-radius: 0.5rem;
+    border:3px solid var(--outline-warning-btn-text-color);
+    width:20rem;
+
+}
+
+.warn:focus{
+    border: 2px solid var(--primary-text-color);
+}
+
+
+.success{
+    background-color: var(--primary-light-color);
+    font-weight: 400;
+    outline: none;
+    padding:0.8rem;
+    border-radius: 0.5rem;
+    border:3px solid var( --badge-active-color);
+    width:20rem;
+
+}
+
+.error:focus{
+    border: 2px solid var(--primary-text-color);
+}
