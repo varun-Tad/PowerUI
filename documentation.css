@@ -2,10 +2,12 @@
 
 body{
     background-color: var(--background-color);
+    position: absolute;
 }
 
 
 .container{
+  
     min-height:100vh;
     max-width:100%;
     margin-bottom:10rem ;
@@ -228,3 +230,24 @@ body{
     margin-top:3rem;
 }
 
+
+.show-modal-btn{
+  
+    cursor: pointer;
+    padding:1rem 1rem;
+    width:fit-content;
+    font-size: 1.5rem;
+    height: fit-content;
+    border-radius: 0.5rem;
+    border:3px solid var(--primary-color);
+    background-color: var(--background-white-color);
+    color:var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   outline: none;
+   
+}
+
+.show-modal-btn:active{
+    transform:translateX(1rem);
+
+}
