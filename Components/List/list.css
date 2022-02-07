@@ -1,0 +1,38 @@
+.numbered-list{
+    list-style: number;
+}
+
+.roman-list{
+    list-style: upper-roman;
+}
+
+
+.uppercase-letter{
+    list-style: upper-alpha;
+}
+
+.lowercase-letter{
+    list-style: lower-alpha;
+}
+
+.disc-style{
+    list-style-type: disc;
+}
+
+.circle-style{
+    list-style-type: circle;
+}
+
+.square-style{
+    list-style-type: square;
+}
+
+.default-style{
+    list-style-type:none;
+}
+
+
+.inline-style{
+    display: flex;
+    gap: 3rem;
+}
