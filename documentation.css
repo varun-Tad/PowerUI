@@ -23,7 +23,7 @@ body{
 }
 
 .document-container{
-    margin-top:7rem;
+    margin-top:10rem;
 }
 
 iframe{
@@ -32,8 +32,6 @@ iframe{
 }
 
 .main-navbar{ 
-
-    background-color: var(--secondary-color);
     width:100%;
     height: 13rem;
     display:flex;
@@ -47,6 +45,7 @@ iframe{
     top:0;
     grid-area: header;
     column-gap:5rem;
+    background-image: linear-gradient(to right , var(--background-white-color) , var(--primary-color));
     
 }
 
@@ -82,12 +81,13 @@ iframe{
   
     text-decoration: none;
     font-size: 1.8rem;
-    color:var(--secondary-text-color);
+    color:var(--background-white-color);
+    font-weight: 500;
   
 }
 
 .right-nav a:hover{
-   border-bottom: 3px solid var(--secondary-text-color);
+   border-bottom: 3px solid var(--background-white-color);
    font-weight: 900;
    
 }
@@ -101,16 +101,13 @@ iframe{
 
   .side-navbar{
     font-size:2rem; 
-  
     border-right: 2px solid var(--primary-color);
-  
     position: fixed;
     top:15rem;
     left:0;
     z-index:10;
     grid-area: aside;
     margin-top:5rem;
-  
     height: 100%;
   }
 
@@ -227,18 +224,6 @@ iframe{
       margin-right:2rem;
   }
 
-
-.badge-comp-example{
-      display:flex;
-      justify-content:space-evenly;
-      align-items: center;
-      width:80rem;
-      margin-bottom: 3rem;
-      border: 2px solid var(--primary-color);
-      padding:2rem;
-      margin-top:2rem;
-      
-  }
 
   .fa-facebook-square {
       color:#4267B2;

@@ -9,7 +9,7 @@ body{
 
 .main-navbar{ 
 
-    background-color: var(--secondary-color);
+    background-image: linear-gradient(to right , var(--background-white-color) , var(--primary-color));
     width:100%;
     height: 10rem;
     display:flex;
@@ -55,13 +55,15 @@ body{
   
     text-decoration: none;
     font-size: 1.8rem;
-    color:var(--secondary-text-color);
+    color:var(--background-white-color);
+    font-weight: 500;
   
 }
 
 .right-nav a:hover{
-   border-bottom: 3px solid var(--secondary-text-color);
+   border-bottom: 3px solid var(--background-white-color);
    font-weight: 900;
+  
    
 }
 /* navbar ends */
@@ -72,7 +74,7 @@ body{
 
 
 .main-content{
-    margin-top:20rem;
+    margin-top:10rem;
 }
 
 .top-content{
@@ -96,9 +98,19 @@ body{
     justify-self:flex-start;
     align-self:center;
     margin-left:3rem;
+    margin-bottom: 7rem;
     
 }
 
+.top-content-btns h1{
+    font-size: 10rem;
+    margin-bottom:100px;
+   
+}
+
+.top-content-btns h1 span{
+    color:var(--primary-color);
+}
 
 .top-content-btns .get-started-btn{
     
