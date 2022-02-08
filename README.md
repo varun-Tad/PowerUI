@@ -70,7 +70,9 @@ Hosted link - [PowerUI](https://powerui.netlify.app/)
 
 - Copy the font awesome CDN to use the font awesome icons.You can find it the font awesome website
 
-- Copy and paste the Power Component.css to your project 
+- Copy and paste the below cdn Power Component.css to your project to use the component library.
+
+      <link rel="stylesheet" href="https://powerui.netlify.app/Components/component.css">
   
 - You are good to go ! Happy Coding !
 
