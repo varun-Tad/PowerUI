@@ -2,7 +2,7 @@
 
 PowerUI is a CSS library containing pre-defined styles classes that can help you in building your next website efficiently.
 
-Hosted link - 
+Hosted link - [PowerUI](https://powerui.netlify.app/)
 
 ## Techstack used
 
