@@ -1,7 +1,7 @@
 
    .image-cont{
   
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
     padding:2rem;
     max-width:80rem;
     text-align: center;
@@ -17,10 +17,10 @@
 
 
   .round-img{
-    height: 50rem;
-    width:50rem;
+    max-height: 50rem;
+    max-width:50rem;
     border-radius: 50%;
-    
+    /* object-fit: cover; */
   }
 
 
