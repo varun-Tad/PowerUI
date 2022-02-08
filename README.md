@@ -13,7 +13,7 @@ Hosted link -
 
 
 ## Features
----
+
 
 - Alerts
 
@@ -66,7 +66,7 @@ Hosted link -
 
 
 ## How can i use this component library ?
----
+
 
 - Copy the font awesome CDN to use the font awesome icons.You can find it the font awesome website
 
@@ -75,7 +75,7 @@ Hosted link -
 - You are good to go ! Happy Coding !
 
 ## Sneak peek
----
+
 
 ![doc](/images/doc-page.png)
 
