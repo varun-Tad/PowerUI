@@ -41,6 +41,8 @@ Hosted link - [PowerUI](https://powerui.netlify.app/)
   - Card with text overlay
   - Horizontal Card
   - Card with Dismiss
+  - Card with header and buttons
+  - Product listing card
 
 - Images
   - Responsive Image
