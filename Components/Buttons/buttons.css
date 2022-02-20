@@ -37,21 +37,11 @@
 }
 
 
-/* .btn-secondary:hover{
-    opacity:0.7;
-} */
-
-
 .btn-success{
     color:var(--solid-btn-text-color);
     background-color: var(--success-btn-background-color);
     border:var(--success-btn-background-color) ;
 }
-
-/* .btn-success:hover{
-    opacity:0.7;
-} */
-
 
 .btn-danger{
     color:var(--solid-btn-text-color);
@@ -59,20 +49,12 @@
     border:var(--danger-btn-background-color);
 }
 
-
-/* .btn-danger:hover{
-    opacity:0.7;
-} */
-
 .btn-warning{
     color:var(--solid-btn-text-color);
     background-color: var(--warning-btn-background-color);
     border: var(--warning-btn-background-color);
 }
 
-/* .btn-warning:hover{
-    opacity:0.7;
-} */
 
 
 .btn-info{
