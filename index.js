@@ -6,7 +6,7 @@
 
 
  getStartedBtn.addEventListener('click',()=>location.href="documentation.html");
- gitHubBtn.addEventListener('click',()=>location.href="#");
+ gitHubBtn.addEventListener('click',()=>location.href="https://github.com/varun-Tad/PowerUI");
 
 
 
