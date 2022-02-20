@@ -10,7 +10,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
-
     background-color: var(--primary-light-color);
     padding: 4rem;
     border-radius: 0.5rem;
@@ -39,6 +38,8 @@
 
    .hidden {
     display: none;
+
+
   }
   
 

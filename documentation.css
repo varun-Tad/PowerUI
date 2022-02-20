@@ -119,7 +119,6 @@ iframe{
     color:var(--secondary-text-color);
     text-decoration: none;
     margin-right:13rem;
-  
   }
 
   .side-navbar p{
@@ -127,14 +126,12 @@ iframe{
   }
 
  
-  .side-navbar-item a:hover{
- 
-    
-    /* text-decoration: underline; */
+  .side-navbar-item a:hover{ 
     background-color: var(--primary-light-color);
     padding:1rem;
     border-radius: 0.5rem;
   }
+
 
   .side-navbar h4{
       margin-top:1.2rem;
