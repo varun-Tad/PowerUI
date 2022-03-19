@@ -1,0 +1,16 @@
+i:hover {
+  color: var(--gold-color);
+}
+
+i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.gold-color {
+  color: var(--gold-color);
+}
+
+.one-star-example {
+  font-size: 30px;
+}

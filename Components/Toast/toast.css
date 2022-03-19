@@ -1,0 +1,49 @@
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: var(--solid-btn-text-color);
+}
+
+.toast-success {
+  background-color: var(--success-btn-background-color);
+}
+
+.toast-failure {
+  background-color: var(--danger-btn-background-color);
+}
+
+.toast-warning {
+  background-color: var(--warning-btn-background-color);
+}
+
+.toast-stacked {
+  background-color: var(--toast-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 60rem;
+  height: 8rem;
+  flex-direction: column;
+  color: var(--solid-btn-text-color);
+  border-radius: 0.5rem;
+}
+
+.toast-stacked .toast-text {
+  margin-right: 11rem;
+}
+
+.toast-resolve {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rem;
+}
+
+.toast-resolve p {
+  margin-right: 20px;
+  color: #bb86fc;
+}
