@@ -1,5 +1,9 @@
 /* navbar starts*/
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--background-color);
   position: absolute;
