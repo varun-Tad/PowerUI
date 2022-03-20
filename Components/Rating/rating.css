@@ -1,0 +1,16 @@
+.fa-star:hover {
+  color: var(--gold-color);
+}
+
+.fa-star {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.gold-color {
+  color: var(--gold-color);
+}
+
+.one-star-example {
+  font-size: 3rem;
+}
