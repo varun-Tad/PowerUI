@@ -1,8 +1,8 @@
-i:hover {
+.fa-star:hover {
   color: var(--gold-color);
 }
 
-i {
+.fa-star {
   font-size: 30px;
   cursor: pointer;
 }
