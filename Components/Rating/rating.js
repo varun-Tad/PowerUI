@@ -6,17 +6,26 @@ const fiveStar = document.querySelector(".five-star");
 
 oneStar.addEventListener("click", () => {
   oneStar.classList.add("gold-color");
+  twoStar.classList.remove("gold-color");
+  threeStar.classList.remove("gold-color");
+  fourStar.classList.remove("gold-color");
+  fiveStar.classList.remove("gold-color");
 });
 
 twoStar.addEventListener("click", () => {
   oneStar.classList.add("gold-color");
   twoStar.classList.add("gold-color");
+  threeStar.classList.remove("gold-color");
+  fourStar.classList.remove("gold-color");
+  fiveStar.classList.remove("gold-color");
 });
 
 threeStar.addEventListener("click", () => {
   oneStar.classList.add("gold-color");
   twoStar.classList.add("gold-color");
   threeStar.classList.add("gold-color");
+  fourStar.classList.remove("gold-color");
+  fiveStar.classList.remove("gold-color");
 });
 
 fourStar.addEventListener("click", () => {
@@ -24,6 +33,7 @@ fourStar.addEventListener("click", () => {
   twoStar.classList.add("gold-color");
   threeStar.classList.add("gold-color");
   fourStar.classList.add("gold-color");
+  fiveStar.classList.remove("gold-color");
 });
 
 fiveStar.addEventListener("click", () => {
