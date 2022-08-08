@@ -1,70 +1,69 @@
+@import "./Typography/typography.css";
+@import "./Alerts/alerts.css";
+@import "./Avatars/avatars.css";
+@import "./Buttons/buttons.css";
+@import "./Badges/badge.css";
+@import "./Cards/cards.css";
+@import "./Image/image.css";
+@import "./Input/input.css";
+@import "./List/list.css";
+@import "./Modal/modal.css";
+@import "./Navigation/Navbar.css";
+@import "./Toast/toast.css";
+@import "./Rating/rating.css";
+@import "./Grid/grid.css";
 
-@import './Typography/typography.css';
-@import './Alerts/alerts.css';
-@import './Avatars/avatars.css';
-@import './Buttons/buttons.css';
-@import './Badges/badge.css';
-@import './Cards/cards.css';
-@import './Image/image.css';
-@import './Input/input.css';
-@import './List/list.css';
-@import './Modal/modal.css';
-
-
-
-*{
-    margin: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-:root{
-    font-size:62.5%;
-    --primary-color:#ff7043;
-    --primary-light-color:#f5cfc4;
-    --secondary-color:#f7f7f7;
-    --primary-text-color:#4d4a4a;
-    --secondary-text-color:#ff7403;
-    --tertiary-text-color:#1a1918;
-    --background-color: #f2f0f0;
-    --background-white-color:#fff;
-    --alert-success-text-color:#0f5132;
-    --alert-success-background-color:#d1e7dd;
-    --alert-danger-text-color:#842029;
-    --alert-danger-background-color:#f8d7da;
-    --alert-warning-text-color:#664d03;
-    --alert-warning-background-color:#fff3cd;
-    --alert-info-text-color:#055160;
-    --alert-info-background-color:#cff4fc;
-    --solid-btn-text-color:#fff;
-    --primary-btn-background-color:#0d6efd;
-    --secondary-btn-background-color:#6c757d;
-    --success-btn-background-color:#198754;
-    --danger-btn-background-color:#dc3545;
-    --warning-btn-background-color:#ffc107;
-    --info-btn-background-color:#0dcaf0;
-    --floating-btn-background:#000000;
-    --outline-btn-background-color:#fff;
-    --outline-primary-btn-text-color:#0d6efd;
-    --outline-secondary-btn-text-color:#6c757d;
-    --outline-success-btn-text-color:#198754;
-    --outline-danger-btn-text-color:#dc3545;
-    --outline-warning-btn-text-color:#ffc107;
-    --outline-info-btn-text-color:#0dcaf0;
-    --badge-active-color:#2a8b2a ;
-    --badge-busy-color:#f51111;
-    --badge-away-color:#f2c200;
-
-
-
+:root {
+  font-size: 62.5%;
+  --primary-color: #ff7043;
+  --primary-light-color: #f5cfc4;
+  --secondary-color: #f7f7f7;
+  --primary-text-color: #4d4a4a;
+  --secondary-text-color: #ff7403;
+  --tertiary-text-color: #1a1918;
+  --background-color: #f2f0f0;
+  --background-white-color: #fff;
+  --alert-success-text-color: #0f5132;
+  --alert-success-background-color: #d1e7dd;
+  --alert-danger-text-color: #842029;
+  --alert-danger-background-color: #f8d7da;
+  --alert-warning-text-color: #664d03;
+  --alert-warning-background-color: #fff3cd;
+  --alert-info-text-color: #055160;
+  --alert-info-background-color: #cff4fc;
+  --solid-btn-text-color: #fff;
+  --primary-btn-background-color: #0d6efd;
+  --secondary-btn-background-color: #6c757d;
+  --success-btn-background-color: #198754;
+  --danger-btn-background-color: #dc3545;
+  --warning-btn-background-color: #ffc107;
+  --info-btn-background-color: #0dcaf0;
+  --floating-btn-background: #000000;
+  --outline-btn-background-color: #fff;
+  --outline-primary-btn-text-color: #0d6efd;
+  --outline-secondary-btn-text-color: #6c757d;
+  --outline-success-btn-text-color: #198754;
+  --outline-danger-btn-text-color: #dc3545;
+  --outline-warning-btn-text-color: #ffc107;
+  --outline-info-btn-text-color: #0dcaf0;
+  --badge-active-color: #2a8b2a;
+  --badge-busy-color: #f51111;
+  --badge-away-color: #f2c200;
+  --toast-grey: #333;
+  --gold-color: #ffd700;
+  --violet-color: #bb86fc;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: sans-serif;
-    font-size: 1.6rem;
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
 }

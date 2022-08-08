@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=100%" />
     <title>PowerUI|Documentation</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css" integrity="sha512-p++g4gkFY8DBqLItjIfuKJPFvTPqcg2FzOns2BNaltwoCOrXMqRIOqgWqWEvuqsj/3aVdgoEo2Y7X6SomTfUPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./Components/component.css">
    <link rel="stylesheet" href="documentation.css">
+
 </head>
 <body>
     
@@ -46,6 +48,13 @@
       <p class="side-navbar-item"><a href="#typography-container">Typography</a></p>
       <p class="side-navbar-item"><a href="#list-container">List</a></p>
       <p class="side-navbar-item"><a href="#modal-container">Modal</a></p>
+      <p class="side-navbar-item"><a href="#navigation-container">Navigation</a></p>
+      <p class="side-navbar-item"><a href="#toast-container">Toasts</a></p>
+      <p class="side-navbar-item"><a href="#rating-container">Rating</a></p>
+      <p class="side-navbar-item"><a href="#grid-container">Grid</a></p>
+      
+      
+
   </aside>
 
     <!-- side navbar ends -->
@@ -810,8 +819,181 @@
   </iframe>
 
 
+<!-- Navigation section -->
 
-  </section>
+<div id="navigation-container">
+  <h1 class="component-heading"> Navigation</h1>
+  <p class="component-para">The navbar can be very useful as it helps the users to essentially navigate to various parts of the website.A navbar will typically contain a logo/brand name and few icons and few buttons and a input box</p>
+  <p class="component-para">To make sure the navigation bar which typically stay at the top,make  sure to add the <span class="component-text-highlighted">.navbar-fixed</span> class. </p> 
+
+
+ <nav class="navbar">
+   <div class="logo-container">
+    <img src="/images/logo.png" alt="logo-pic">
+   </div>
+   <div class="nav-items">
+    <button type="button" class="btn btn-success btns sign-in-btn btns">Sign in</button>
+     <div class="basic-input-textboxes">
+        <label for="products"></label>
+        <input class="basic-input-box inp-btn" type="text" placeholder="Search products">
+      </div>
+      <div class="badge-portion">
+        <a href="/Pages/Wishlist-page/wishlist.html"><i class="fa fa-heart-o fa-2x navicon-color"></i></a>
+      </div>
+      <div class="badge-portion">
+        <a href="/Pages/Cart-page/cart.html"><i class="fa-solid fa-cart-shopping fa-2x navicon-color"></i></a>
+      </div>
+   </div>
+ </nav>
+</div>
+
+<iframe
+  loading="lazy"
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522logo-container%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Flogo.png%2522%2520alt%253D%2522logo-pic%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-items%2522%253E%250A%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2520btns%2520sign-in-btn%2520btns%2522%253ESign%2520in%253C%252Fbutton%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522basic-input-textboxes%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522products%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522basic-input-box%2520inp-btn%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2520products%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252FPages%252FWishlist-page%252Fwishlist.html%2522%253E%253Ci%2520class%253D%2522fa%2520fa-heart-o%2520fa-2x%2520navicon-color%2522%253E%253C%252Fli%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-portion%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252FPages%252FCart-page%252Fcart.html%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-cart-shopping%2520fa-2x%2520navicon-color%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fnav%253E"
+  style="width: 100%; height: 559px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+<div id="toast-container">
+  <h1 class="component-heading">Toasts</h1>
+  <p class="component-para">Toasts are pop up messages which are used to convey a certain message to the user </p>
+  <p class="component-para">You can replace the class <span class="component-text-highlighted">.toast </span> with theh class<span class="component-text-highlighted"> .toast-stacked</span> to use a stacked toast.  </p>
+
+  <div class="toast-example">
+
+    <div class="toast toast-success">
+       <p>Order has been placed !</p>
+       <p>	&#10005</p>
+     </div>
+     <div class="toast toast-failure">
+       <p>Try again!</p>
+       <p>	&#10005</p>
+     </div>
+     <div class="toast toast-warning">
+       <p>Can't share file "payments.pdf" !</p>
+       <p>	&#10005</p>
+     </div>
+
+     <div class="toast-stacked">
+       <p class="toast-text">This item already has the label "travel".You can add a new label.</p>
+       <div class="toast-resolve">
+         <p>Add a new label</p>
+         <p>&#10005</p>
+       </div>
+     </div>
+
+  </div>  
+</div>
+
+<iframe
+ loading="lazy"
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EOrder%2520has%2520been%2520placed%2520%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2509%2526%252310005%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-failure%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ETry%2520again%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2509%2526%252310005%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECan%27t%2520share%2520file%2520%2522payments.pdf%2522%2520%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2509%2526%252310005%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-text%2522%253EThis%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.You%2520can%2520add%2520a%2520new%2520label.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-resolve%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAdd%2520a%2520new%2520label%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2526%252310005%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 559px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+<div id="rating-container">
+  <h1 class="component-heading">Ratings</h1>
+  <p class="component-para">Ratings are a way of expressing one's  displeasure or one's staisfaction towards a certain product or a service. </p>
+  <p class="component-para">You can click on the stars below to give a rating.</p>
+<div class="rating-example">
+
+   <div class="five-star-example">
+      <i class="fa fa-star one-star" aria-hidden="true"></i>
+      <i class="fa fa-star two-star" aria-hidden="true "></i>
+      <i class="fa fa-star three-star" aria-hidden="true"></i>
+      <i class="fa fa-star four-star" aria-hidden="true"></i>
+      <i class="fa fa-star five-star" aria-hidden="true"></i>
+   </div> 
+  
+   <div class="one-star-example">
+    <span>3</span><i class="fa fa-star one-star" aria-hidden="true"></i><span>|5</span>
+   </div>
+</div>
+
+</div>
+
+
+<iframe
+  loading="lazy"
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522five-star-example%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520one-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520two-star%2522%2520aria-hidden%253D%2522true%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520three-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520four-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520five-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522one-star-example%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E3%253C%252Fspan%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520one-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253Cspan%253E%257C5%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+
+<div id="grid-container">
+  <h1 class="component-heading">Grid</h1>
+
+  <p class="component-para">A simplified 50-50 grid</p>
+  <div class="grid-example">
+    <div class="grid-50-50">
+     <div>
+       <img src="./images/watch.jpeg" alt="watch">
+     </div>
+     <div>
+        <img src="./images/paris.jpeg" alt="paris">
+     </div>
+    </div>
+  </div>
+
+  <iframe
+  loading="lazy"
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-50-50%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fwatch.jpeg%2522%2520alt%253D%2522watch%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fimages%252Fparis.jpeg%2522%2520alt%253D%2522paris%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+  <p class="component-para">A simplified 60-40 grid</p> 
+  <div class="grid-example">
+    <div class="grid-60-40">
+      <div>
+        <img class="watch-pic" src="./images/watch.jpeg" alt="watch">
+      </div>
+      <div>
+         <img class="paris-pic" src="./images/paris.jpeg" alt="paris">
+      </div>
+    </div>
+  </div> 
+
+  <iframe
+  loading="lazy"
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-60-40%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522watch-pic%2522%2520src%253D%2522.%252Fimages%252Fwatch.jpeg%2522%2520alt%253D%2522watch%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522paris-pic%2522%2520src%253D%2522.%252Fimages%252Fparis.jpeg%2522%2520alt%253D%2522paris%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 100%; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+  <p class="component-para">A simplified grid with 3 items</p> 
+  <div class="grid-example">
+    <div class="grid-items-3">
+      <div>
+        <img class="watch-pic" src="./images/watch.jpeg" alt="watch">
+      </div>
+      <div>
+         <img class="paris-pic" src="./images/paris.jpeg" alt="paris">
+      </div>
+      <div>
+        <img class="paris-pic" src="./images/paris.jpeg" alt="paris">
+     </div>
+    </div>
+  </div>
+
+  <iframe
+   loading="lazy"
+   src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522watch-pic%2522%2520src%253D%2522.%252Fimages%252Fwatch.jpeg%2522%2520alt%253D%2522watch%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522paris-pic%2522%2520src%253D%2522.%252Fimages%252Fparis.jpeg%2522%2520alt%253D%2522paris%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522paris-pic%2522%2520src%253D%2522.%252Fimages%252Fparis.jpeg%2522%2520alt%253D%2522paris%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+   style="width: 100%; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+   sandbox="allow-scripts allow-same-origin">
+ </iframe>
+
+ 
+ </div>
+</section>
     <!-- document-container ends -->
 
 </div>
@@ -819,6 +1001,7 @@
 <!-- side navbar ends -->
 
 <script src="https://kit.fontawesome.com/2aa1dc31bc.js" crossorigin="anonymous"></script>
+<script src="Components/Rating/rating.js"></script>
 <script src="Components/Modal/modal.js"></script>
 <script src="documentation.js"></script>
 </body>

@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  background-color: var(--background-white-color);
+  height: 12rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 11;
+}
+
+.logo-container {
+  width: 20rem;
+  margin-left: 1rem;
+}
+
+.logo-container img {
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.badge-portion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+  padding: 0 5px 0 2rem;
+  margin: 0 3rem 2rem 0;
+  cursor: pointer;
+}
+
+.badge-portion i {
+  color: var(--primary-color);
+}
+
+.inp-btn {
+  width: 20rem;
+  height: 4rem;
+  background-color: var(--primary-light-color);
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.btns {
+  padding: 1.2rem 2.5rem;
+  margin-right: 2rem;
+  margin-top: 1.1rem;
+}

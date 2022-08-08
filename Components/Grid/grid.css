@@ -1,0 +1,23 @@
+.grid-50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-60-40 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 1rem;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-items-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-rows: auto;
+}

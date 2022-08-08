@@ -1,89 +1,73 @@
-
-.badge-portion{
-    position: relative;
+.badge-portion {
+  position: relative;
 }
 
-.badge{
-    border-radius: 50%;
-    font-weight:700;
+.badge {
+  border-radius: 50%;
+  font-weight: 700;
 }
 
-.badge-top{
-    width:2rem;
-    height:2rem;
-    position: relative;
-    bottom:5rem;
-    left:3rem;
-    
+.badge-top {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 5rem;
+  left: 2rem;
 }
 
-
-.badge-bottom-sm{
-    width:2rem;
-    height:2rem;
-    position:relative;
-    bottom:2rem;
-    left:4rem;
-    
+.badge-bottom-sm {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 2rem;
+  left: 4rem;
 }
 
-
-.badge-bottom-md{
-    width:2rem;
-    height:2rem;
-    position:relative;
-    bottom:2.5rem;
-    left:6rem;
-    
+.badge-bottom-md {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 2.5rem;
+  left: 6rem;
 }
 
-
-.badge-bottom-lg{
-    width:2rem;
-    height:2rem;
-    position:relative;
-    bottom:2.5rem;
-    left:7rem;
-    
+.badge-bottom-lg {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 2.5rem;
+  left: 7rem;
 }
 
-
-.number-badge{
-    font-size: 1.2rem;
-    padding-left:5px;
-    padding-top:3px;
-    padding-right:5px;
-    color:var(--secondary-color);
-
+.number-badge {
+  font-size: 1.2rem;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-right: 5px;
+  color: var(--secondary-color);
 }
 
-
-.badge-active{
-    background-color:var(--badge-active-color);
-    box-shadow: var(--background-color) 0px 0px 0px 3px;
+.badge-active {
+  background-color: var(--badge-active-color);
+  box-shadow: var(--background-color) 0px 0px 0px 3px;
 }
 
-.badge-busy{
-    background-color:var(--badge-busy-color);
-    box-shadow: var(--background-color) 0px 0px 0px 3px;
+.badge-busy {
+  background-color: var(--badge-busy-color);
+  box-shadow: var(--background-color) 0px 0px 0px 3px;
 }
 
-.badge-away{
-    background-color: var(--badge-away-color);
-    box-shadow: var(--background-color) 0px 0px 0px 3px;
+.badge-away {
+  background-color: var(--badge-away-color);
+  box-shadow: var(--background-color) 0px 0px 0px 3px;
 }
 
-.badge-no-of-message{
-    background-color: var(--secondary-text-color);
-
+.badge-no-of-message {
+  background-color: var(--secondary-text-color);
 }
 
-
-.navicon-color{
-    color:black;
-    margin-right: 2rem;
-    cursor: pointer;
+.navicon-color {
+  color: black;
+  margin-right: 2rem;
+  cursor: pointer;
 }
-
-
-
