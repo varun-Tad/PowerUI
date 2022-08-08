@@ -4,7 +4,7 @@ PowerUI is a CSS library containing pre-defined styles classes that can help you
 
 
 
-Hosted link - [PowerUI](https://poweryoui.netlify.app/)
+Hosted link - [PowerUI](https://powui.netlify.app/)
 
 
 ## Techstack used
